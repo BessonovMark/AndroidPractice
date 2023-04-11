@@ -48,31 +48,44 @@
                 android:layout_weight="1"
                 android:orientation="horizontal"
                 android:layout_gravity="center_horizontal">
-                <TextView
+
+                <Button
+                    android:id="@+id/regByNumberButton"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:layout_weight="3"
+                    android:background="@color/design_default_color_background"
                     android:text="По номеру"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
-                <TextView
+                    android:textAllCaps="false"
+                    android:stateListAnimator="@null"
+                    android:textColor="@android:color/tab_indicator_text"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/regByEmailButton"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:text="По email"
                     android:textColor="#E4572B"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="12sp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center_vertical"
+                    android:stateListAnimator="@null"
+                    android:background="#fbe7e1"/>
             </LinearLayout>
             <EditText
+                android:id="@+id/regNameView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:hint="Введите email"
                 android:inputType="textEmailAddress"
                 android:textSize="18sp"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                />
             <EditText
+                android:id="@+id/regPasswordView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -81,6 +94,7 @@
                 android:textSize="18sp"
                 android:layout_gravity="center_horizontal"/>
             <EditText
+                android:id="@+id/regRepeatPasswordView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -103,6 +117,7 @@
                 android:text="Зарегистрироваться"
                 android:textSize="16sp"
                 android:backgroundTint="#E4572B"
+                android:id="@+id/regButton"
                 />
                 <!--android:backround didn't work -->
         </androidx.constraintlayout.widget.ConstraintLayout>
