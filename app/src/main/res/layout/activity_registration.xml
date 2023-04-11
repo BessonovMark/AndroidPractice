@@ -103,8 +103,8 @@
                 android:text="Зарегистрироваться"
                 android:textSize="16sp"
                 android:backgroundTint="#E4572B"
-                <!--android:backround didn't work -->
                 />
+                <!--android:backround didn't work -->
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
