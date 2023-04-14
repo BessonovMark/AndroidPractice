@@ -19,8 +19,8 @@ class FirstFragment : Fragment() {
         val root = inflater.inflate(R.layout.fragment_first, container, false)
         loadData()
 
-        root.recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        root.recyclerView.adapter = myAdapter
+        root.rootView.findViewById<RecyclerView>(R.id.recyclerView).layoutManager = LinearLayoutManager(requireContext())
+        root.rootView.findViewById<RecyclerView>(R.id.recyclerView).adapter = myAdapter
         return root
     }
     private fun loadData(){

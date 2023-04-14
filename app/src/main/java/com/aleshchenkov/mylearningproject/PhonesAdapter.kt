@@ -31,10 +31,10 @@ class PhonesAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
     class PhonesViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         fun bind(mPhones: PhoneModel){
-            itemView.phone_name.text = mPhones.name
-            itemView.phone_price.text = mPhones.price
-            itemView.phone_date.text = mPhones.date
-            itemView.phone_camera_score.text = mPhones.score
+            itemView.rootView.findViewById<TextView>(R.id.phone_name).text = mPhones.name
+            itemView.rootView.findViewById<TextView>(R.id.phone_price).text = mPhones.price
+            itemView.rootView.findViewById<TextView>(R.id.phone_date).text = mPhones.date
+            itemView.rootView.findViewById<TextView>(R.id.phone_camera_score).text = mPhones.score
         }
     }
 }

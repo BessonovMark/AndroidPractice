@@ -19,6 +19,60 @@ object PhonesData {
             "$10",
             "May, 1901",
             "1"
+        ),
+        PhoneModel(
+            "4. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
+        ),
+        PhoneModel(
+            "5. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
+        ),
+        PhoneModel(
+            "6. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
+        ),
+        PhoneModel(
+            "7. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
+        ),
+        PhoneModel(
+            "8. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
+        ),
+        PhoneModel(
+            "9. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
+        ),
+        PhoneModel(
+            "10. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
+        ),
+        PhoneModel(
+            "11. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
+        ),
+        PhoneModel(
+            "12. Nokia 3310",
+            "$10",
+            "May, 1901",
+            "1"
         )
     )
 }
